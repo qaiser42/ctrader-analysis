@@ -1,0 +1,12 @@
+[project]
+name = "trading-analysis"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ctrader-open-api>=0.9.2",
+    "ipykernel>=7.1.0",
+    "pandas",
+    "websockets",
+]
